@@ -56,6 +56,11 @@ print('\n13. ')
 #     n = len(sum_stars)
 #     new_five_stars = []
 #     for i in range(n):
-#         if i < 100:
-#             new_five_stars.append(stars)
+#         if sum_stars[i] < 100:
+#             stars.append(sum_stars)
 #     return new_five_stars
+#     print(sum_stars)
+#
+#
+# comprasion_stars(sum_stars)
+# print(sum_stars)
